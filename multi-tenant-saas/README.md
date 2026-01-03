@@ -1,6 +1,8 @@
 Multi-Tenant SaaS Project & Task Management System
 A production-ready full-stack SaaS application featuring multi-tenancy, data isolation, subscription management, and role-based access control for project and task management.​
 
+This project is designed as a learning-friendly reference implementation for multi-tenant architectures.
+
 🚀 Quick Start
 To launch the entire platform (Database, Backend, Frontend) with Docker:
 
