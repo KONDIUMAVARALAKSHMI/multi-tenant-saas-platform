@@ -7,6 +7,9 @@ This project is designed as a learning-friendly reference implementation for mul
 To launch the entire platform (Database, Backend, Frontend) with Docker:
 
 docker-compose up -d
+
+Make sure Docker Desktop is running before executing this command.
+
 Once containers are up:
 
 Frontend (React): http://localhost:3000
