@@ -44,6 +44,7 @@ This ensures that users from one tenant can never see data belonging to another 
 RBAC (Role-Based Access Control)
 
 Roles: Super Admin, Tenant Admin, and User.
+Each role has different permissions for managing tenants, projects, and tasks.
 
 Permissions enforced at API and UI level based on role.​
 
