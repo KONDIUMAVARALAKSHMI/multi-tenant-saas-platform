@@ -83,6 +83,8 @@ Health Check
 
 GET /api/health – returns API and database status; used by the evaluator to know when the system is ready.​
 
+All API responses are JSON, and protected routes require a valid JWT in the Authorization header.
+
 Authentication
 
 POST /api/auth/register-tenant – register a new tenant and its admin user.
