@@ -24,6 +24,7 @@ Database migrations and seed data are applied automatically during startup; no m
 
 🏗 System Architecture
 The application uses a Shared Database, Shared Schema multi-tenant architecture. Every tenant-specific record includes a mandatory tenantId, ensuring hard isolation between organizations.​
+
 All services run on localhost, so you can access the frontend at http://localhost:3000 and the backend API at http://localhost:5000.
 
 Frontend: React SPA (service name: frontend, port 3000).​
@@ -37,7 +38,8 @@ Tenant isolation is enforced both in the database schema and at the API layer by
 🔑 Key Features
 Multi-Tenancy
 
-Each organization (tenant) has its own subdomain and fully isolated data.​
+Multi-Tenancy: Each organization has its own subdomain and isolated data.
+This ensures that users from one tenant can never see data belonging to another tenant.
 
 RBAC (Role-Based Access Control)
 
