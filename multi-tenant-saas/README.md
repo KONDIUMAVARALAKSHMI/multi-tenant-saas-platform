@@ -151,3 +151,7 @@ http://localhost:5000/api/health returns a successful response once containers a
 Documentation
 
 The docs/ folder contains all 4 required markdown files from Step 1 (research, PRD, architecture, technical specification) with the expected filenames and structure.
+
+## Troubleshooting
+
+If containers fail to start, run `docker-compose logs` to view service logs and verify that the database connection variables are set correctly.
