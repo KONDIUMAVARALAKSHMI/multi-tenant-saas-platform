@@ -24,6 +24,7 @@ Database migrations and seed data are applied automatically during startup; no m
 
 🏗 System Architecture
 The application uses a Shared Database, Shared Schema multi-tenant architecture. Every tenant-specific record includes a mandatory tenantId, ensuring hard isolation between organizations.​
+All services run on localhost, so you can access the frontend at http://localhost:3000 and the backend API at http://localhost:5000.
 
 Frontend: React SPA (service name: frontend, port 3000).​
 
